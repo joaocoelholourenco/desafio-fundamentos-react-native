@@ -43,12 +43,11 @@ const Dashboard: React.FC = () => {
   }, []);
 
   function handleAddToCart(item: Product): void {
-    // TODO
+    addToCart(item);
   }
 
   return (
     <Container>
-      <Text>Dash</Text>
       <ProductContainer>
         <ProductList
           data={products}
